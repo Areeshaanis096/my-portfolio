@@ -18,13 +18,21 @@
     <!-- sec -->
     <section id="project-section">
         <h1 class="my-projects">These are Some of My Projects</h1>
-        <div class="project-div">
-        <a href="file:///home/areeshaanis/Desktop/areesha's%20html/project1/project.html" target="_blank">
-        <img class="project-img" src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg" alt="Dr norman">
-        <p class="project-link">Tribute page</p>
+    <div style="display: flex; flex-direction: row;">
+                <div class="project-div">
+            <a href="file:///home/areeshaanis/Desktop/areesha's%20html/project1/project.html" target="_blank">
+            <img class="project-img" src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg" alt="Dr norman">
+            <p class="project-link">Tribute page</p>
     </a>
         </div>
-        </section>
+        <div class="project-div">
+            <a href="file:///home/areeshaanis/Desktop/areesha's%20html/project%202/form.html" target="_blank">
+            <img class="project-img" src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg" alt="Dr norman">
+            <p class="project-link">survey form</p>
+        </a>
+        </div>
+        </div>
+            </section>
 </body>
 
 <style>
@@ -68,6 +76,10 @@
 #project-section{
     background-image: url(https://staceymckenzieportfolio.files.wordpress.com/2016/04/cropped-education-background-checks.jpg);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
 }
 
 .project-div{
@@ -77,6 +89,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 2%;
+    padding: 1px ;
 }
 
 .my-projects{
